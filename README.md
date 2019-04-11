@@ -1,5 +1,5 @@
 # tetris
-A simple tetris game using Vanilla Javascript.
+A simple tetris game using Vanilla Javascript. See it live: https://just-one-character.github.io/tetris/.
 
 I used a series of Functions to abstract the smaller functionality into more managable pieces. Prototyping allowed extensions to the base functions for additional methods.
 
