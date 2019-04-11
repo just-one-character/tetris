@@ -10,6 +10,11 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 #main-container {
     width: 60%;
     margin: 0 auto;
@@ -118,12 +123,15 @@ h1 {
 
 .about-sections {
     box-sizing: border-box;
+    position: relative;
     width: 240px;
     font-size: 20px;
     float: left;
     padding: 20px;
     height: 100px;
     color: black;
+    top: 120px;
+    left: 30px;
 }
 
 #game-over {
