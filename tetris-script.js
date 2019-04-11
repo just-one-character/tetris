@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 function showMainMenu() {
     document.getElementById("game-menu").style.display = "block";
-    document.getElementById("game-about").style.display = "none";
+    document.getElementById("game-about").style.display = "block";
     document.getElementById("game-rules").style.display = "none";
     document.getElementById("game-over").style.display = "none";
 }
@@ -17,19 +17,19 @@ function showGameOver() {
 }
 
 function showAbout() {
-    document.getElementById("game-about").style.display = "block";
+    //document.getElementById("game-about").style.display = "block";
     document.getElementById("game-rules").style.display = "none";
 }
 
 function showRules() {
     document.getElementById("game-rules").style.display = "block";
-    document.getElementById("game-about").style.display = "none";
+    //document.getElementById("game-about").style.display = "none";
 }
 
 function newGame() {
     document.getElementById("game-over").style.display = "none";
     document.getElementById("game-menu").style.display = "none";
-    document.getElementById("game-about").style.display = "none";
+    document.getElementById("game-about").style.display = "block";
     document.getElementById("game-rules").style.display = "none";
     setScore(0);
     document.getElementById("game-canvas").style.display = "block";
