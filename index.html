@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tetris!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="tetris-style.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="tetris-script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div><h1>Tetris</h1></div>
+        
+        <div id="game-container">
+            <div id="score-container">
+                <div id="score-panel">
+                    <div id="score-label">Score:</div>
+                    <div id="score-value"></div>
+                </div>
+            </div>
+
+            <div id="grid-container">
+                <canvas id="game-canvas" width="300" height="600"></canvas>
+
+                <div id="game-menu">
+                    <a href="#" onclick="newGame()">New Game</a>
+                    <!--<a href="#" onclick="showAbout()">About</a>
+                    <a href="#" onclick="showRules()">Rules</a>
+                    <a href="#" onclick="">Exit</a>-->
+                </div>
+
+                <div id="game-over">
+                    <p>GAME OVER!</p>
+                    <a href="#" onclick="showMainMenu()">Main Menu</a>
+                </div>
+
+                <div id="game-paused">
+                    <p>Game Paused</p>
+                    <p>Press P to resume</p>
+                </div>
+            </div>
+
+            <div id="info-container">
+                <div id="game-about" class="about-sections">
+                    <p>A simple Tetris game, created by Nathan J. Brown, December 2018. This is version 1.0</p>
+                </div>
+
+                <div id="game-rules" class="about-sections">
+                    <p>
+                        Tetris is played on a 10 by 20 grid. Shapes called Tetriminos fall from the top of the grid and land at the bottom or on other Tetrominos.
+                    </p>
+                    <p>
+                        You're job is to rotate and move the pieces so they slot together. A good strategy will help.
+                    </p>
+                    <p>
+                        As time progresses the game speeds up. Good luck!
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+        
+        <div id="bottom-bar-container">
+            <div id="bottom-bar">
+                <div id="menu-container">
+
+
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+    
+    
+</body>
+</html>
